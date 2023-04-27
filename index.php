@@ -98,7 +98,7 @@
                 <div class="collapse clearfix" id="search">
                     <form method="get" action="results.php" class="navbar-form navbar-right">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search" name="user_query" required>
+                            <input type="text " class="form-control" placeholder="Search" name="user_query" required>
                             <span class="input-group-btn">
                                 <button type="submit" name="search" value="Search" class="btn btn-primary">
                                     <i class="fa-solid fa-magnifying-glass"></i>
