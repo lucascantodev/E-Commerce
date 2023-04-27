@@ -8,6 +8,7 @@
     <title>E-Commerce</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -90,17 +91,19 @@
                 <div class="navbar-collapse collapse right">
                     <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search">
                         <span class="sr-only">Toggle Search</span>
-                        <i class="fa fa-search"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
 
                 <div class="collapse clearfix" id="search">
-                    <form method="get" action="results.php" class="navbar-form">
+                    <form method="get" action="results.php" class="navbar-form navbar-right">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search" name="user_query" required>
-                            <button type="submit" name="search" value="Search" class="btn btn-primary">
-                                <i class="fa fa-search"></i>
-                            </button>
+                            <span class="input-group-btn">
+                                <button type="submit" name="search" value="Search" class="btn btn-primary">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </span>
                         </div>
                     </form>
                 </div>
