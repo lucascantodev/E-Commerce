@@ -137,3 +137,10 @@ body {
 #search .navbar-form .input-group .form-control {
     width: 100%;;
 }
+
+/* Carousel's Section Style */
+
+.carousel-inner img.center {
+    display: block;
+    margin: 0 auto;
+}
